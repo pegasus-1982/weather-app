@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+  <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <header class="jumbotron">
+        <h1 class="display-3">Weather Dashboard</h1>
+        <p class="lead">Type city name and hit enter to find out its weather information</p>
+        <p id="currentDay" class="lead"></p>
+      </header>
+
+  <!-- Retrieved data will be dumped here -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4" class="section1">
+
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Toronto" aria-label="City Name" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-secondary" type="button">Search</button>
+                    </div>
+                  </div>
+
+                <div class="searchHistory">
+
+                </div>
+
+            </div>
+
+            <div class="col-sm-8" class="section2">
+
+                <div class="city"></div>
+                
+                <div class="temp"></div>
+                <div class="tempFeel"></div>
+                <div class="tempMax"></div>
+                <div class="tempMin"></div>
+                
+                <div class="Farenheit">
+                  <div class="tempF"></div>
+                  <div class="tempFeelF"></div>
+                  <div class="tempMaxF"></div>
+                  <div class="tempMinF"></div>
+                </div>
+                
+                <div class="wind"></div>
+                <div class="humidity"></div>
+
+
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12" class="section3"> 
+                
+                
+                <div class="card-deck">
+
+                  <div class="card" >
+                    <img class="card-img-top" alt="Card image cap" src="" id="imgDay1">
+                    <div class="card-body">
+                      <h5 class="card-title">Day 1</h5>
+                      <p class="card-text" id="day1"></p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted"></small>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <img class="card-img-top" alt="Card image cap" src="" id="imgDay2">
+                    <div class="card-body">
+                      <h5 class="card-title">Day 2</h5>
+                      <p class="card-text" id="day2"></p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted"></small>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <img class="card-img-top" alt="Card image cap" src="" id="imgDay3">
+                    <div class="card-body">
+                      <h5 class="card-title">Day 3</h5>
+                      <p class="card-text" id="day3"></p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted"></small>
+                    </div>
+                  </div>
+                </div>
+                
+                
+            </div>
+          </div>
+        
+
+
+    </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+  
+</body>
+
+</html>

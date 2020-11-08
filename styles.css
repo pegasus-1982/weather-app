@@ -1,0 +1,99 @@
+.jumbotron {
+    background-color: black;
+    color: white;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: :left;
+}
+
+.lead {
+    text-align: center;
+}
+
+.container{
+   
+    margin-top: 0px;
+}
+
+body {
+    background-color: #DCDCDC;
+}
+
+#currentDay {
+    text-align: center;
+}
+
+.col-sm-4 {
+    height: 50vh;
+    background-color: white;
+    border-right:1px solid gray;
+    line-height:2em;
+    
+}
+.col-sm-8 {
+    height: 50vh;
+    background-color: white;
+    
+}
+
+.col-sm-12{
+    height: 50vh;
+    background-color: white;
+    border-top:1px solid gray;
+    line-height:2em;
+    
+}
+
+.input-group {
+    margin-top: 30px;
+}
+
+.col-sm-12,
+.Farenheit {
+    display: none;
+}
+
+.card-img-top {
+    height: 50px;
+    width: 50px;
+    margin-left: 150px;
+}
+
+.card-deck {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.searchHistory {
+    color: grey;
+    
+}
+
+#imgDay1,
+#imgDay2,
+#imgDay3 {
+    height: 80px;
+    width: 80px;
+}
+
+.temp,
+.tempFeel,
+.tempMax,
+.tempMin,
+.wind,
+.humidity,
+.city {
+    padding-top: 10px;
+    padding-bottom: 2x;
+    margin-left: 30px;
+    
+    
+
+}
